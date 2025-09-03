@@ -149,7 +149,7 @@ const MemoView: React.FC<Props> = observer((props: Props) => {
                 to={`/u/${encodeURIComponent(creator.username)}`}
                 viewTransition
               >
-                <UserAvatar className="mr-2 shrink-0" avatarUrl={creator.avatarUrl} />
+                <UserAvatar className="ml-2 shrink-0" avatarUrl={creator.avatarUrl} />
               </Link>
               <div className="w-full flex flex-col justify-center items-start">
                 <Link

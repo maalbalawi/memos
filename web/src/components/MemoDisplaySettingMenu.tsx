@@ -22,7 +22,7 @@ const MemoDisplaySettingMenu = observer(({ className }: Props) => {
       <PopoverContent align="end" alignOffset={-12} sideOffset={14}>
         <div className="flex flex-col gap-2 p-1">
           <div className="w-full flex flex-row justify-between items-center">
-            <span className="text-sm shrink-0 mr-3 text-foreground">{t("memo.direction")}</span>
+            <span className="text-sm shrink-0 ml-3 text-foreground">{t("memo.direction")}</span>
             <Select
               value={viewStore.state.orderByTimeAsc.toString()}
               onValueChange={(value) =>
@@ -41,7 +41,7 @@ const MemoDisplaySettingMenu = observer(({ className }: Props) => {
             </Select>
           </div>
           <div className="w-full flex flex-row justify-between items-center">
-            <span className="text-sm shrink-0 mr-3 text-foreground">{t("common.layout")}</span>
+            <span className="text-sm shrink-0 ml-3 text-foreground">{t("common.layout")}</span>
             <Select
               value={viewStore.state.layout}
               onValueChange={(value) =>

@@ -16,7 +16,7 @@ const SectionMenuItem: React.FC<SettingMenuItemProps> = ({ text, icon: IconCompo
         isSelected ? "bg-accent shadow" : ""
       }`}
     >
-      <IconComponent className="w-4 h-auto mr-2 opacity-80 shrink-0" />
+      <IconComponent className="w-4 h-auto ml-2 opacity-80 shrink-0" />
       <span className="truncate">{text}</span>
     </div>
   );

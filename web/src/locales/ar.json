@@ -63,7 +63,7 @@
     "or": "أو",
     "password": "كلمة المرور",
     "pin": "ثبّت",
-    "pinned": "مثبت",
+    "pinned": "مثبتة",
     "preview": "معاينة",
     "profile": "الملف الشخصي",
     "properties": "خصائص",
@@ -117,13 +117,15 @@
     "no-changes-detected": "لم يتم الكشف عن تغييرات"
   },
   "filters": {
-    "has-code": "يحتوي على كود",
-    "has-link": "يحتوي على رابط",
-    "has-task-list": "يحتوي على قائمة مهام"
+    "has-code": "سطور برمجية",
+    "has-link": "روابط",
+    "has-task-list": "قائمة مهام"
   },
   "inbox": {
     "memo-comment": "{{user}} علق على {{memo}} الخاص بك.",
-    "version-update": "الإصدار الجديد {{version}} متوفر الآن!"
+    "version-update": "الإصدار الجديد {{version}} متوفر الآن!",
+    "failed-to-load": "Failed to load inbox item"
+
   },
   "markdown": {
     "checkbox": "مربع اختيار",
@@ -154,7 +156,7 @@
     "order-by": "ترتيب حسب",
     "remove-completed-task-list-items": "إزالة المنجز",
     "remove-completed-task-list-items-confirm": "هل أنت متأكد أنك تريد إزالة جميع المهام المنجزة؟ (هذه العملية لا يمكن التراجع عنها)",
-    "search-placeholder": "ابحث عن مذكرة...",
+    "search-placeholder": "البحث..",
     "show-less": "عرض أقل",
     "show-more": "عرض المزيد",
     "to-do": "مهام",
@@ -424,7 +426,7 @@
   "tag": {
     "all-tags": "جميع العلامات",
     "create-tag": "انشاء علامة",
-    "create-tags-guide": "يمكنك إنشاء علامات بإدخال `#tag`.",
+    "create-tags-guide": "يمكنك إنشاء علامات بإدخال `#علامة`.",
     "delete-confirm": "هل أنت متأكد من حذف هذه العلامة؟ سيتم أرشفة جميع المذكرات المتعلقة.",
     "delete-tag": "حذف العلامة",
     "new-name": "اسم جديد",
@@ -435,5 +437,13 @@
     "rename-success": "تمت إعادة تسمية العلامة بنجاح",
     "rename-tag": "إعادة تسمية العلامة",
     "rename-tip": "سيتم تحديث جميع مذكراتك بهذه العلامة."
+  },
+  "tooltip": {
+    "link-memo": "ربط ملاحضة",
+    "markdown-menu": "Markdown",
+    "select-location": "الموقع",
+    "select-visibility": "الظهور",
+    "tags": "العلامات",
+    "upload-attachment": "رفع مرفقات"
   }
 }

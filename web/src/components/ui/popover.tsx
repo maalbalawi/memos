@@ -26,6 +26,7 @@ const PopoverContent = React.forwardRef<
   return (
     <PopoverPrimitive.Portal>
       <PopoverPrimitive.Content
+      dir="rtl"
         ref={ref}
         data-slot="popover-content"
         align={align}

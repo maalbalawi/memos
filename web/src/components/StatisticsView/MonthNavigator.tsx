@@ -20,11 +20,11 @@ export const MonthNavigator = ({ visibleMonth, onMonthChange }: MonthNavigatorPr
         {currentMonth.toLocaleString(i18n.language, { year: "numeric", month: "long" })}
       </span>
       <div className="flex justify-end items-center shrink-0 gap-1">
-        <button className="cursor-pointer hover:opacity-80 transition-opacity" onClick={handlePrevMonth} aria-label="Previous month">
-          <ChevronLeftIcon className="w-5 h-auto shrink-0 opacity-40" />
-        </button>
-        <button className="cursor-pointer hover:opacity-80 transition-opacity" onClick={handleNextMonth} aria-label="Next month">
+        <button className="cursor-pointer hover:opacity-80 transition-opacity" onClick={handlePrevMonth} aria-label="Next month">
           <ChevronRightIcon className="w-5 h-auto shrink-0 opacity-40" />
+        </button>
+        <button className="cursor-pointer hover:opacity-80 transition-opacity" onClick={handleNextMonth} aria-label="Previous month">
+          <ChevronLeftIcon className="w-5 h-auto shrink-0 opacity-40" />
         </button>
       </div>
     </div>

@@ -137,7 +137,7 @@ const StorageSection = observer(() => {
   return (
     <div className="w-full flex flex-col gap-2 pt-2 pb-4">
       <div className="font-medium text-muted-foreground">{t("setting.storage-section.current-storage")}</div>
-      <RadioGroup
+      <RadioGroup dir="rtl"
         value={workspaceStorageSetting.storageType}
         onValueChange={(value) => {
           handleStorageTypeChanged(value as WorkspaceSetting_StorageSetting_StorageType);

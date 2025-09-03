@@ -73,7 +73,7 @@ const Attachments = observer(() => {
         <div className="w-full border border-border flex flex-col justify-start items-start px-4 py-3 rounded-xl bg-background text-foreground">
           <div className="relative w-full flex flex-row justify-between items-center">
             <p className="py-1 flex flex-row justify-start items-center select-none opacity-80">
-              <PaperclipIcon className="w-6 h-auto mr-1 opacity-80" />
+              <PaperclipIcon className="w-6 h-auto ml-1 opacity-80" />
               <span className="text-lg">{t("common.attachments")}</span>
             </p>
             <div>

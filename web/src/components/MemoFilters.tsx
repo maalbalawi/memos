@@ -49,7 +49,7 @@ const MemoFilters = observer(() => {
       {filters.map((filter: MemoFilter) => (
         <div
           key={getMemoFilterKey(filter)}
-          className="w-auto leading-7 h-7 shrink-0 flex flex-row items-center gap-1 bg-background border pl-1.5 pr-1 rounded-md hover:line-through cursor-pointer"
+          className="w-auto leading-7 h-7 shrink-0 flex flex-row items-center gap-1 bg-background border pr-1.5 pl-1 rounded-md hover:line-through cursor-pointer"
           onClick={() => memoFilterStore.removeFilter((f: MemoFilter) => isEqual(f, filter))}
         >
           <FactorIcon className="w-4 h-auto text-muted-foreground opacity-60" factor={filter.factor} />

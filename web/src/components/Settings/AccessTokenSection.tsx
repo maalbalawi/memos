@@ -76,16 +76,16 @@ const AccessTokenSection = () => {
               <table className="min-w-full divide-y divide-border">
                 <thead>
                   <tr>
-                    <th scope="col" className="px-3 py-2 text-left text-sm font-semibold text-foreground">
+                    <th scope="col" className="px-3 py-2 text-right text-sm font-semibold text-foreground">
                       {t("setting.access-token-section.token")}
                     </th>
-                    <th scope="col" className="py-2 pl-4 pr-3 text-left text-sm font-semibold text-foreground">
+                    <th scope="col" className="py-2 pl-4 pr-3 text-right text-sm font-semibold text-foreground">
                       {t("common.description")}
                     </th>
-                    <th scope="col" className="px-3 py-2 text-left text-sm font-semibold text-foreground">
+                    <th scope="col" className="px-3 py-2 text-right text-sm font-semibold text-foreground">
                       {t("setting.access-token-section.create-dialog.created-at")}
                     </th>
-                    <th scope="col" className="px-3 py-2 text-left text-sm font-semibold text-foreground">
+                    <th scope="col" className="px-3 py-2 text-right text-sm font-semibold text-foreground">
                       {t("setting.access-token-section.create-dialog.expires-at")}
                     </th>
                     <th scope="col" className="relative py-3.5 pl-3 pr-4">

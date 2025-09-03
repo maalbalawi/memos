@@ -18,6 +18,7 @@ const DialogOverlay = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <DialogPrimitive.Overlay
     ref={ref}
+    dir="rtl"
     data-slot="dialog-overlay"
     className={cn(
       "data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 z-50 bg-foreground/50",
@@ -88,7 +89,7 @@ const DialogContent = React.forwardRef<
 DialogContent.displayName = DialogPrimitive.Content.displayName;
 
 const DialogHeader = React.forwardRef<React.ElementRef<"div">, React.ComponentPropsWithoutRef<"div">>(({ className, ...props }, ref) => (
-  <div ref={ref} className={cn("flex flex-col gap-2 text-center sm:text-left", className)} {...props} />
+  <div ref={ref} className={cn("flex flex-col gap-2 text-center sm:text-right", className)} {...props} />
 ));
 DialogHeader.displayName = "DialogHeader";
 

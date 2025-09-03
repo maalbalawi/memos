@@ -33,7 +33,7 @@ const UserBanner = (props: Props) => {
             <User2Icon className="w-6 mx-auto h-auto text-muted-foreground" />
           )}
           {!collapsed && (
-            <span className="ml-2 text-lg font-medium text-foreground grow truncate">
+            <span className="mr-2 text-lg font-medium text-foreground grow truncate">
               {currentUser.displayName || currentUser.username}
             </span>
           )}

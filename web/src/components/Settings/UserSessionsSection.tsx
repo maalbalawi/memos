@@ -83,10 +83,10 @@ const UserSessionsSection = () => {
               <table className="min-w-full divide-y divide-border">
                 <thead>
                   <tr>
-                    <th scope="col" className="px-3 py-2 text-left text-sm font-semibold text-foreground">
+                    <th scope="col" className="px-3 py-2 text-right text-sm font-semibold text-foreground">
                       {t("setting.user-sessions-section.device")}
                     </th>
-                    <th scope="col" className="px-3 py-2 text-left text-sm font-semibold text-foreground">
+                    <th scope="col" className="px-3 py-2 text-right text-sm font-semibold text-foreground">
                       {t("setting.user-sessions-section.last-active")}
                     </th>
                     <th scope="col" className="relative py-3.5 pl-3 pr-4">
@@ -104,8 +104,8 @@ const UserSessionsSection = () => {
                             <span className="font-medium">
                               {formatDeviceInfo(userSession.clientInfo)}
                               {isCurrentSession(userSession) && (
-                                <span className="ml-2 inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-primary/20 text-primary">
-                                  <WifiIcon className="w-3 h-3 mr-1" />
+                                <span className="mr-2 inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-primary/20 text-primary">
+                                  <WifiIcon className="w-3 h-3 ml-1" />
                                   {t("setting.user-sessions-section.current")}
                                 </span>
                               )}
